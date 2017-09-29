@@ -1,0 +1,11 @@
+#project p {
+	font-size: larger;
+	font-weight: bolder;
+	text-align: center;
+}
+#project p a:hover{
+	background-color: var(--main-color-1);
+}
+.slide img {
+	border-radius: 10px;
+}
