@@ -72,6 +72,7 @@
 						<span class="o tag">git</span>
 						<span class="g tag">pyCharm</span>
 						<span class="o tag">notepad++</span>
+						<span class="o tag">geany</span>
 					</td>
 					<td>
 						<span class="r tag">eclipse</span>
@@ -95,7 +96,7 @@
 					<td>
 						<span class="o tag">ajax</span>
 						<span class="o tag">jquery</span>
-						<span class="o tag">Node.js</span>
+						<span class="o tag">node.js</span>
 					</td>
 					<td>
 						<span class="r tag">libGDX</span>
