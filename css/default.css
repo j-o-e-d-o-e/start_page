@@ -12,7 +12,7 @@
     font-family: var(--main-font);
 }
 body {
-	margin: 10px 10px 10px 10px;
+	margin: 10px 0px 10px 0px;
 	background: var(--main-background);
 }
 header, footer {
@@ -110,16 +110,7 @@ header > h1 > span {
 	border: solid 1px var(--main-color-4);
 }
 
-/*WINDOW RESIZE*/
-/*if viewport 500px or less*/
-@media screen and (max-width: 500px) {
-    body {
-		margin: 10px;
-	}
-	#nav ul {
-		margin-right: 10px;
-	}
-}
+/*WINDOW RESIZE
 /*if viewport 1200px or wider*/
 @media screen and (min-width: 1200px) {
     body {
