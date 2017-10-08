@@ -94,8 +94,12 @@
 	padding-right: 8px;
 	overflow: auto;
 }
+#modal_body_aboutme p {
+	margin-bottom: 0px;
+}
 .modal_table, .modal_table th, .modal_table td {
     border: 1px solid dimgray;
+	border-collapse: collapse;
 	text-align: left;
 	vertical-align: top;
 }
@@ -103,6 +107,10 @@
 .modal_table th, .modal_table td {
 	padding: 1px 0px 3px 5px;
 	width: 200px;
+}
+caption h3 {
+
+	margin-bottom: 8px;
 }
 .tag {
 	font-size: small;

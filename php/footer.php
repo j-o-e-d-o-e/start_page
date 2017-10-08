@@ -25,10 +25,10 @@
 				I'm a student of computer science in North Rhine-Westphalia
 				and here I present my software development projects.
 			</p>
-			<h3>
-				languages
-			</h3>
 			<table class="modal_table">
+				<caption>
+					<h3>languages</h3>
+				</caption>
 				<tr>
 					<th>
 						basics*
@@ -54,10 +54,10 @@
 					</td>
 				</tr>
 			</table>
-			<h3>
-				tools
-			</h3>
 			<table class="modal_table">
+				<caption>
+					<h3>tools</h3>
+				</caption>
 				<tr>
 					<th>
 						basics*
@@ -80,10 +80,10 @@
 					</td>
 				</tr>
 			</table>
-			<h3>
-				frameworks
-			</h3>
 			<table class="modal_table">
+				<caption>
+					<h3>frameworks</h3>
+				</caption>
 				<tr>
 					<th>
 						basics*
