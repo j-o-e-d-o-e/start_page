@@ -105,7 +105,7 @@
 					<span class="tag">libGDX</span>
 				</div>
             </section>
-
+<!--
             <section class="o box" onclick="location.href='web_server/index.php';">                
 				<h2>
                     web server
@@ -122,7 +122,7 @@
 					<span class="tag">raspberry</span>
 				</div>					
             </section>
-
+-->
             <section class="o box" onclick="location.href='plane_tracker/index.php';">                
 				<h2>
                     plane tracker
