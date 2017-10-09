@@ -8,7 +8,7 @@
 		</li> 
 		<li>
 			<a id="footer_terms_info" title="terms">		
-				<i class="fa fa-legal"></i>
+				<i class="fa fa-info-circle"></i>
 			</a>
 		</li> 		
 	</ul>
