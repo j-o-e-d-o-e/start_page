@@ -105,8 +105,8 @@
 				</tr>
 			</table>
 			<p style="font-size:smaller;color:dimgray;">
-				<i>*basics</i> means I know the fundamentals &amp have accomplished minor projects.<br>
-				<i>**intermediate</i> means I also know some of the advanced features &amp have finished at least one bigger project.
+				<i>*basics</i> means I know the fundamentals &amp have finished minor projects.<br>
+				<i>**intermediate</i> means I also know some of the advanced features &amp have accomplished at least one bigger project.
 			</p>
 		</div>
 	</div>
