@@ -108,8 +108,10 @@
 	padding: 1px 0px 3px 5px;
 	width: 260px;
 }
+.modal_table td {
+	height: 40px;
+}
 caption h3 {
-
 	margin-bottom: 8px;
 }
 .tag {
