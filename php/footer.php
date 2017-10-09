@@ -40,17 +40,18 @@
 				<tr>
 					<td>
 						<span class="b tag">c#</span>
-						<span class="o tag">javascript</span>
+
 						<span class="o tag">php</span>
 						<span class="o tag">sql</span>
 						<span class="o tag">bash</span>
-						<span class="o tag">css</span>
-						<span class="o tag">html</span>
 						<span class="o tag">pascal</span>
 					</td>
 					<td>
 						<span class="r tag">java</span>
 						<span class="g tag">python</span>
+						<span class="o tag">javascript</span>
+						<span class="o tag">css</span>
+						<span class="o tag">html</span>
 					</td>
 				</tr>
 			</table>
