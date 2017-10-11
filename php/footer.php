@@ -39,19 +39,19 @@
 				</tr>
 				<tr>
 					<td>
-						<span class="b tag">c#</span>
+						<span class="b_tag">c#</span>
 
-						<span class="o tag">php</span>
-						<span class="o tag">sql</span>
-						<span class="o tag">bash</span>
-						<span class="o tag">pascal</span>
+						<span class="o_tag">php</span>
+						<span class="o_tag">sql</span>
+						<span class="o_tag">bash</span>
+						<span class="o_tag">pascal</span>
 					</td>
 					<td>
-						<span class="r tag">java</span>
-						<span class="g tag">python</span>
-						<span class="o tag">javascript</span>
-						<span class="o tag">css</span>
-						<span class="o tag">html</span>
+						<span class="r_tag">java</span>
+						<span class="g_tag">python</span>
+						<span class="o_tag">javascript</span>
+						<span class="o_tag">css</span>
+						<span class="o_tag">html</span>
 					</td>
 				</tr>
 			</table>
@@ -69,15 +69,15 @@
 				</tr>
 				<tr>
 					<td>
-						<span class="b tag">visual studio</span>
-						<span class="o tag">git</span>
-						<span class="g tag">pyCharm</span>
-						<span class="o tag">notepad++</span>
-						<span class="o tag">geany</span>
+						<span class="b_tag">visual studio</span>
+						<span class="o_tag">git</span>
+						<span class="g_tag">pyCharm</span>
+						<span class="o_tag">notepad++</span>
+						<span class="o_tag">geany</span>
 					</td>
 					<td>
-						<span class="r tag">eclipse</span>
-						<span class="g tag">idle</span>
+						<span class="r_tag">eclipse</span>
+						<span class="g_tag">idle</span>
 					</td>
 				</tr>
 			</table>
@@ -95,12 +95,12 @@
 				</tr>
 				<tr>
 					<td>
-						<span class="o tag">ajax</span>
-						<span class="o tag">jquery</span>
-						<span class="o tag">node.js</span>
+						<span class="o_tag">ajax</span>
+						<span class="o_tag">jquery</span>
+						<span class="o_tag">node.js</span>
 					</td>
 					<td>
-						<span class="r tag">libGDX</span>
+						<span class="r_tag">libGDX</span>
 					</td>
 				</tr>
 			</table>

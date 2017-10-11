@@ -114,21 +114,21 @@
 caption h3 {
 	margin-bottom: 8px;
 }
-.tag {
+.r_tag, .g_tag, .b_tag, .o_tag {
 	font-size: small;
 	color: dimgray;
 	border-radius: 10px;
 	padding: 0px 5px 0px 5px;
 }
-.r.tag {
+.r_tag {
 	border: solid 1px var(--main-color-1);
 }
-.g.tag {
+.g_tag {
 	border: solid 1px var(--main-color-2);
 }
-.b.tag {
+.b_tag {
 	border: solid 1px var(--main-color-3);
 }
-.o.tag {
+.o_tag {
 	border: solid 1px var(--main-color-4);
 }
