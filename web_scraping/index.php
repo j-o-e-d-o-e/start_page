@@ -50,7 +50,7 @@
 				</p>
 				<p>
 					Technically, it sends a get-request via jquery/ajax to php which forwards the string to python returning a json-object.
-					It uses the reddit-api (praw) &amp is authorized via OAuth.
+					It uses the reddit-api (praw) &amp is authorized by OAuth.
 				</p>
 				<h3>
 					specifications
