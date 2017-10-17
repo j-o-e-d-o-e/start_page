@@ -4,7 +4,7 @@ $(function(){
         $(value).fadeToggle("slow");
     });
 })
-
+/*
 function shuffle(){
     var boxes = $(".box");
     var container = $("#container");
@@ -22,3 +22,4 @@ function shuffle(){
        container.append(boxes[num]) 
     });
 };
+*/

@@ -5,11 +5,13 @@
 			include "../php/projects_head.php";
 		?>
         <meta name="description" content="software development projects: game dev"/>
-		<link rel="stylesheet" href="../css/slides.css" type="text/css">
 		<link rel="stylesheet" href="css/game_dev.css" type="text/css">
-		<script src="../js/slides.js"></script>
+        <script src="js/game_dev.js"></script>        
+		<script src="js/soundmanager2-setup.js"></script>
+  		<script src="js/soundmanager2-jsmin.js"></script>
+		<script src="html/html.nocache.js"></script>
     </head>  
-    <body onload="getSlide(1);">
+    <body>
 		<?php
 			include "../php/projects_header.php";
 			include "../php/mail.php";
@@ -25,33 +27,8 @@
 				include "../php/projects_nav_box.php";
 			?>
 			<div id="project">
-				<p>
-					Play "The Assassin" on 
-					<a href="https://gamejolt.com/games/the_assassin/280607">gamejolt.com</a> or 
-					<a href="https://joedoe.itch.io/the-assassin">itch.io</a>!
-				</p>
-				<div id="slideshow">
-					<div class="slide">
-						<img src="img/start.PNG">	
-					</div>
-					<div class="slide">
-						<img src="img/city.PNG">
-					</div>
-					<div class="slide">
-						<img src="img/place.PNG">
-					</div>
-					<div class="slide">
-						<img src="img/fight.PNG">
-					</div>
-					<a id="prev" onclick="changeSlide(-1)">&#10094;</a>
-					<a id="next" onclick="changeSlide(1)">&#10095;</a>
-				</div><br>
-				<div style="text-align:center">
-					<span class="dot" onclick="getSlide(1)"></span> 
-					<span class="dot" onclick="getSlide(2)"></span> 
-					<span class="dot" onclick="getSlide(3)"></span>
-					<span class="dot" onclick="getSlide(4)"></span> 
-				</div>	
+				<div align="center" id="embed-html"></div>
+				<p><i>Note:</i> press 'p' for pause/controls info.</p>
 			</div>
 			<div id="info">
 				<h3>

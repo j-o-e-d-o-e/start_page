@@ -1,11 +1,11 @@
+canvas {
+	border-radius: var(--main-border-radius);
+    cursor: default;
+    outline: none;
+	width: 800px;
+	height: 500px;
+	display: block;
+}
 #project p {
-	font-size: larger;
-	font-weight: bolder;
 	text-align: center;
-}
-#project p a:hover{
-	background-color: var(--main-color-1);
-}
-.slide img {
-	border-radius: 10px;
 }
