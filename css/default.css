@@ -115,7 +115,7 @@ header > h1 > span {
 /*if viewport 1200px or wider*/
 @media screen and (min-width: 1200px) {
     body {
-		margin: 10px 240px 10px 240px;
+		margin: 15px 240px 15px 240px;
 	}
 	#nav ul {
 		margin-right: 250px;
