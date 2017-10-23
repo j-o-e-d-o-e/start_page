@@ -28,7 +28,7 @@
 			?>
 			<div id="project">
 				<div align="center" id="embed-html"></div>
-				<p><i>Note:</i> press 'p' for pause/controls info.</p>
+				<p><i>Note:</i> press 'p' for pause/controls during gameplay.</p>
 			</div>
 			<div id="info">
 				<h3>

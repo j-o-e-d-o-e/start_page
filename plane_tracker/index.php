@@ -5,8 +5,9 @@
 			include "../php/projects_head.php";
 		?>
         <meta name="description" content="software development projects: plane tracker"/>
+		<script src="js/plane_tracker.js"></script>
     </head>  
-    <body>
+    <body onload ="showInitialTable()">
 		<?php
 			include "../php/projects_header.php";
 			include "../php/mail.php";
@@ -18,9 +19,66 @@
 			<div class="div_icon">
 				<i class="fa fa-plane" aria-hidden="true"></i>
 			</div>
-			<nav class="nav_box"></nav>
-			<div id="info" style="display: block;">
-				<p>Nothing here, yet.</p>
+			<?php
+				include "../php/projects_nav_box.php";
+			?>
+			<div id="project" style="text-align:center">
+				<form onsubmit="return false">
+					<label>from</label>
+					<input id="t_from" type="time" name="from">
+					<label>until</label>
+					<input id="t_until" type="time" name="until">					
+					<label>departed from</label>
+					<input id ="d_list" list="departed_from" name="departed_from">
+						<datalist id="departed_from">
+							<option value="bukarest">
+							<option value="damaskus">
+							<option value="dublin">
+							<option value="köln">
+							<option value="mailand">
+							<option value="paris">
+							<option value="berlin">
+						</datalist>
+					<input id="pt_input" type="submit" value="submit">
+				</form>
+				<div id="output" style="text-align:-webkit-center;"></div>
+			</div>
+			<div id="info">
+				<h3>
+					description
+				</h3>
+				<p>
+					This database shows information about planes which are about to land at düsseldorf airport.
+				</p>
+				<h3>
+					specifications
+				</h3>
+				<ul>
+					<li>
+						mySQL
+					</li>
+					<li>
+						raspberry pi
+					</li>
+					<li>
+						python
+					</li>
+					<li>
+						open cv
+					</li>
+					<li>
+						open sky
+					</li>
+				</ul>
+				</h3>
+				<h3>
+					links/materials
+				</h3>
+				<ul>
+					<li>
+						<a href=#>github.com</a>
+					</li>
+				</ul>
 			</div>
 		</section>
 		<?php

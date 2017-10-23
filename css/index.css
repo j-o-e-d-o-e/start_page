@@ -73,6 +73,7 @@ section > p {
 .o .fa {
 	color: var(--main-color-4);
 }
+
 /*DATE TAG*/
 .date_tag {
 	font-size: small;
