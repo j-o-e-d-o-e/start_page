@@ -45,6 +45,7 @@
 						<span class="o_tag">sql</span>
 						<span class="o_tag">bash</span>
 						<span class="o_tag">pascal</span>
+						<span class="o_tag">prolog</span>
 					</td>
 					<td>
 						<span class="r_tag">java</span>
