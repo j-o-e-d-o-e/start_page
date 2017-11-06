@@ -73,8 +73,10 @@
 						<span class="b_tag">visual studio</span>
 						<span class="o_tag">git</span>
 						<span class="g_tag">pyCharm</span>
+						<span class="g_tag">idle</span>
 						<span class="o_tag">notepad++</span>
 						<span class="o_tag">geany</span>
+						<span class="o_tag">xampp</span>
 					</td>
 					<td>
 						<span class="r_tag">eclipse</span>
