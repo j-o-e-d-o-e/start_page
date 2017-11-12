@@ -110,14 +110,30 @@
             </section>
             <section class="o box" onclick="location.href='plane_tracker/index.php';">                
                 <h2>
-                    plane tracker
+                    computer vision
                 </h2>
                 <div class="div_icon">
-                    <i class="fa fa-plane" aria-hidden="true"></i>
+                    <i class="fa fa-car" aria-hidden="true"></i>
                 </div>
                 <div class="border"></div>
                 <p>
-                    Pattern matching &amp object recognition.
+                    Captures the traffic volume on streets.
+                </p>
+                <div class="tags_container">
+                    <span class="tag">raspberry</span>
+                    <span class="g_tag">python</span>
+                </div>                  
+            </section>
+            <section class="o box" onclick="location.href='plane_tracker/index.php';">                
+                <h2>
+                    database
+                </h2>
+                <div class="div_icon">
+                    <i class="fa fa-database" aria-hidden="true"></i>
+                </div>
+                <div class="border"></div>
+                <p>
+                    Stores data about incoming flights using cv.
                 </p>
                 <div class="tags_container">
                     <span class="tag">sql</span>
