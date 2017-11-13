@@ -1,31 +1,31 @@
 var input;
 
-$(function(){	
-	$("#pt_input").click(function() {
+$(function(){   
+    $("#pt_input").click(function() {
         tf_input = $("#t_from").val();
-		tu_input = $("#t_until").val();
-		d_input = $("#d_list").val();
-		$.ajax({
-			type: "GET",
-			url: "php/plane_tracker.php",
-			dataType: "text",
-			data: {
-				departed_from: d_input,
-				time_from: tf_input,
-				time_until: tu_input
-			},
-			error: function() {
-				$("#output").html("Failed...").show("slow");
-			},
-			success: function (data) {
-				$("#output").html(data);
-			}
-		});
-	});
+        tu_input = $("#t_until").val();
+        d_input = $("#d_list").val();
+        $.ajax({
+            type: "GET",
+            url: "php/computer_vision.php",
+            dataType: "text",
+            data: {
+                departed_from: d_input,
+                time_from: tf_input,
+                time_until: tu_input
+            },
+            error: function() {
+                $("#output").html("Failed...").show("slow");
+            },
+            success: function (data) {
+                $("#output").html(data);
+            }
+        });
+    });
 });
 
 function showInitialTable(){
-	$("#pt_input").trigger("click");
+    $("#pt_input").trigger("click");
 }
 
 function sortTable(n) {
