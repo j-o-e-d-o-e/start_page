@@ -109,26 +109,7 @@
                     <span class="date_tag">09/17</span> 
                 </div>
             </section>
-            <section class="g box" onclick="location.href='computer_vision/index.php';">                
-                <h2>
-                    computer vision
-                </h2>
-                <div class="div_icon">
-                    <i class="fa fa-eye" aria-hidden="true"></i>
-                </div>
-                <div class="border"></div>
-                <p>
-                    Captures the traffic volume on streets.
-                    <span style="color:red">TODO</span>
-                </p>
-                <div class="tags_container">
-                    <span class="tag">python</span>
-                    <span class="tag">open cv</span>
-                    <span class="o_tag">raspberry</span>
-                    <span class="date_tag">01/18</span>
-                </div>                  
-            </section>
-            <section class="o box" onclick="location.href='computer_vision/index.php';">                
+            <section class="o box" onclick="location.href='database/index.php';">                
                 <h2>
                     database
                 </h2>
@@ -137,15 +118,14 @@
                 </div>
                 <div class="border"></div>
                 <p>
-                    Stores data about incoming flights using cv.
-                    <span style="color:red">TODO</span>
+                    Stores data about planes using computer vision.
                 </p>
                 <div class="tags_container">
                     <span class="tag">sql</span>
-                    <span class="tag">raspberry</span>
                     <span class="g_tag">python</span>
                     <span class="g_tag">open cv</span>
                     <span class="date_tag">03/18</span>
+                    <span class="misc_tag">raspberry</span>
                 </div>                  
             </section>
             <section class="b box" onclick="location.href='desktop_app/index.php';">
@@ -158,7 +138,6 @@
                 <div class="border"></div>
                 <p>
                     Editing &amp archiving application.
-                    <span style="color:red">TODO</span>
                 </p>
                 <div class="tags_container">
                     <span class="tag">c#</span>
