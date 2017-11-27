@@ -40,19 +40,19 @@
                 <tr>
                     <td>
                         <span class="b_tag">c#</span>
-
-                        <span class="o_tag">php</span>
+                        <span class="misc_tag">php</span>
                         <span class="o_tag">sql</span>
-                        <span class="o_tag">bash</span>
-                        <span class="o_tag">pascal</span>
-                        <span class="o_tag">prolog</span>
+                        <span class="misc_tag">bash</span>
+                        <span class="misc_tag">pascal</span>
+                        <span class="misc_tag">prolog</span>
+                        <span class="misc_tag">scheme</span>
                     </td>
                     <td>
                         <span class="r_tag">java</span>
                         <span class="g_tag">python</span>
-                        <span class="o_tag">javascript</span>
-                        <span class="o_tag">css</span>
-                        <span class="o_tag">html</span>
+                        <span class="misc_tag">javascript</span>
+                        <span class="misc_tag">css</span>
+                        <span class="misc_tag">html</span>
                     </td>
                 </tr>
             </table>
@@ -71,12 +71,12 @@
                 <tr>
                     <td>
                         <span class="b_tag">visual studio</span>
-                        <span class="o_tag">git</span>
+                        <span class="misc_tag">git</span>
                         <span class="g_tag">pyCharm</span>
                         <span class="g_tag">idle</span>
-                        <span class="o_tag">notepad++</span>
-                        <span class="o_tag">geany</span>
-                        <span class="o_tag">xampp</span>
+                        <span class="misc_tag">notepad++</span>
+                        <span class="misc_tag">geany</span>
+                        <span class="misc_tag">xampp</span>
                     </td>
                     <td>
                         <span class="r_tag">eclipse</span>
@@ -98,9 +98,9 @@
                 </tr>
                 <tr>
                     <td>
-                        <span class="o_tag">ajax</span>
-                        <span class="o_tag">jquery</span>
-                        <span class="o_tag">node.js</span>
+                        <span class="misc_tag">ajax</span>
+                        <span class="misc_tag">jquery</span>
+                        <span class="misc_tag">node.js</span>
                     </td>
                     <td>
                         <span class="r_tag">libGDX</span>
