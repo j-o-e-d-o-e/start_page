@@ -51,8 +51,10 @@
                     This database contains data on aircraft detected with a raspberry pi.
                 </p>
                 <p>
-                    Technically, the python script processes the images from the pi camera using its "open cv"-module.
+                    Basically, the python script processes the images from the pi camera using its "open cv"-module.
                     When an aircraft is detected, a picture is taken and sent together with its timestamp to the database.
+                <p>
+                    Outages including their date and a short description are listed below in the .txt-file.
                 </p>
                 <h3>
                     specifications
@@ -81,6 +83,9 @@
                 <ul>
                     <li>
                         <a href=#>github.com</a>
+                    </li>
+                    <li>
+                        <a href="downloads/outages.txt" target="_blank">outages.txt</a>
                     </li>
                 </ul>
             </div>

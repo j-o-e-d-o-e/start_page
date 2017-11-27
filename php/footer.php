@@ -58,34 +58,6 @@
             </table>
             <table class="modal_table">
                 <caption>
-                    <h3>tools</h3>
-                </caption>
-                <tr>
-                    <th>
-                        basics*
-                    </th>
-                    <th>
-                        intermediate**
-                    </th>
-                </tr>
-                <tr>
-                    <td>
-                        <span class="b_tag">visual studio</span>
-                        <span class="misc_tag">git</span>
-                        <span class="g_tag">pyCharm</span>
-                        <span class="g_tag">idle</span>
-                        <span class="misc_tag">notepad++</span>
-                        <span class="misc_tag">geany</span>
-                        <span class="misc_tag">xampp</span>
-                    </td>
-                    <td>
-                        <span class="r_tag">eclipse</span>
-                        <span class="g_tag">idle</span>
-                    </td>
-                </tr>
-            </table>
-            <table class="modal_table">
-                <caption>
                     <h3>frameworks</h3>
                 </caption>
                 <tr>
@@ -104,6 +76,34 @@
                     </td>
                     <td>
                         <span class="r_tag">libGDX</span>
+                    </td>
+                </tr>
+            </table>
+            <table class="modal_table">
+                <caption>
+                    <h3>tools</h3>
+                </caption>
+                <tr>
+                    <th>
+                        basics*
+                    </th>
+                    <th>
+                        intermediate**
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="b_tag">visual studio</span>
+                        <span class="misc_tag">git</span>
+                        <span class="g_tag">pyCharm</span>
+                        <span class="misc_tag">drracket</span>
+                        <span class="misc_tag">geany</span>
+                        <span class="misc_tag">xampp</span>
+                    </td>
+                    <td>
+                        <span class="r_tag">eclipse</span>
+                        <span class="g_tag">idle</span>
+                        <span class="misc_tag">notepad++</span>
                     </td>
                 </tr>
             </table>

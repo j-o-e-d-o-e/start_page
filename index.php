@@ -61,7 +61,7 @@
                             </li>
                             <li>
                                 <input type="checkbox" class="check" value="o" checked>
-                                    <span id="span_o">misc</span>
+                                    <span id="span_o">sql</span>
                                 </input>
                             </li>
                         </ul>
