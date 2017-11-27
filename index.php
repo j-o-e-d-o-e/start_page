@@ -118,7 +118,7 @@
                 </div>
                 <div class="border"></div>
                 <p>
-                    Stores data about planes using computer vision.
+                    Stores data on aircraft using computer vision.
                 </p>
                 <div class="tags_container">
                     <span class="tag">sql</span>
