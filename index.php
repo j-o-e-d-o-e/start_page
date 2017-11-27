@@ -125,7 +125,6 @@
                     <span class="g_tag">python</span>
                     <span class="g_tag">open cv</span>
                     <span class="date_tag">03/18</span>
-                    <span class="misc_tag">raspberry</span>
                 </div>                  
             </section>
             <section class="b box" onclick="location.href='desktop_app/index.php';">
