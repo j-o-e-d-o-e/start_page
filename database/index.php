@@ -48,7 +48,11 @@
                     description
                 </h3>
                 <p>
-                    This database shows information about planes which are about to land at düsseldorf airport.
+                    This database contains data on aircraft detected with a raspberry pi.
+                </p>
+                <p>
+                    Technically, the python script processes the images from the pi camera using its "open cv"-module.
+                    When an aircraft is detected, a picture is taken and sent together with its timestamp to the database.
                 </p>
                 <h3>
                     specifications
@@ -58,16 +62,16 @@
                         mySQL
                     </li>
                     <li>
-                        raspberry pi
-                    </li>
-                    <li>
                         python
                     </li>
                     <li>
                         open cv
                     </li>
                     <li>
-                        open sky
+                        raspberry pi
+                    </li>
+                    <li>
+                        pi camera NoIR V2
                     </li>
                 </ul>
                 </h3>
