@@ -1,0 +1,11 @@
+canvas {
+	border-radius: var(--main-border-radius);
+    cursor: default;
+    outline: none;
+	width: 800px;
+	height: 500px;
+	display: block;
+}
+#project p {
+	text-align: center;
+}
