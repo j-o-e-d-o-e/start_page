@@ -22,10 +22,80 @@
         <div class="modal_body" id="modal_body_aboutme">
             <p>
                 Hey, welcome to my site!
+<<<<<<< HEAD
             </p>
             <p>
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                 At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit...
+=======
+                I'm a student of computer science in North Rhine-Westphalia
+                and here I present my software development projects.
+            </p>
+            <table class="modal_table">
+                <caption>
+                    <h3>languages</h3>
+                </caption>
+                <tr>
+                    <th>
+                        basics*
+                    </th>
+                    <th>
+                        intermediate**
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="b_tag">c#</span>
+                        <span class="misc_tag">php</span>
+                        <span class="o_tag">sql</span>
+                        <span class="misc_tag">bash</span>
+                        <span class="misc_tag">pascal</span>
+                        <span class="misc_tag">prolog</span>
+                        <span class="misc_tag">scheme</span>
+                        <span class="misc_tag">jquery</span>
+                        <span class="misc_tag">ajax</span>
+                    </td>
+                    <td>
+                        <span class="r_tag">java</span>
+                        <span class="g_tag">python</span>
+                        <span class="misc_tag">javascript</span>
+                        <span class="misc_tag">css</span>
+                        <span class="misc_tag">html</span>
+                    </td>
+                </tr>
+            </table>
+            <table class="modal_table">
+                <caption>
+                    <h3>tools</h3>
+                </caption>
+                <tr>
+                    <th>
+                        basics*
+                    </th>
+                    <th>
+                        intermediate**
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="b_tag">visual studio</span>
+                        <span class="misc_tag">git</span>
+                        <span class="g_tag">pyCharm</span>
+                        <span class="misc_tag">drracket</span>
+                        <span class="misc_tag">geany</span>
+                        <span class="misc_tag">xampp</span>
+                    </td>
+                    <td>
+                        <span class="r_tag">eclipse</span>
+                        <span class="g_tag">idle</span>
+                        <span class="misc_tag">notepad++</span>
+                    </td>
+                </tr>
+            </table>
+            <p style="font-size:smaller;color:dimgray;">
+                <i>*basics</i> means I know the fundamentals &amp have finished minor projects.<br>
+                <i>**intermediate</i> means I also know some of the advanced features &amp have accomplished at least one bigger project.
+>>>>>>> origin/master
             </p>
         </div>
     </div>

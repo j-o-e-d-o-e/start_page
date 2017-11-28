@@ -20,6 +20,11 @@
         <link rel="stylesheet" href="css/index.css" type="text/css">
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="js/index.js"></script>
+<<<<<<< HEAD
+=======
+        <script src="js/mail.js"></script>
+        <script src="js/footer.js"></script>
+>>>>>>> origin/master
     </head>
     <body>
         <header>
@@ -34,7 +39,11 @@
                     </a>
                 </li>
                 <li>
+<<<<<<< HEAD
                     <a id="mail" title="mail">
+=======
+                    <a id="mail" title="mail">      
+>>>>>>> origin/master
                         <i class="fa fa-envelope"></i>
                     </a>
                 </li>
@@ -71,7 +80,11 @@
                 include "php/mail.php";
         ?>
         <div id="container">
+<<<<<<< HEAD
             <section class="g box" onclick="location.href='#';">
+=======
+            <section class="g box" onclick="location.href='web_scraping/index.php';">
+>>>>>>> origin/master
                 <h2>
                     web scraping
                 </h2>
@@ -86,9 +99,16 @@
                     <span class="tag">python</span>
                     <span class="tag">praw</span>
                     <span class="date_tag">08/17</span>
+<<<<<<< HEAD
                 </div>
             </section>
             <section class="r box" onclick="location.href='#';">
+=======
+                    <!--int(time.mktime(datetime.strptime("08/2017", "%m/%Y").timetuple()))-->
+                </div>
+            </section>
+            <section class="r box" onclick="location.href='game_dev/index.php';">
+>>>>>>> origin/master
                 <h2>
                     game dev
                 </h2>
@@ -97,7 +117,11 @@
                 </div>
                 <div class="border"></div>
                 <p>
+<<<<<<< HEAD
                     Inspired by the commodore
+=======
+                    Inspired by the commodore 
+>>>>>>> origin/master
                     64-classics "mafia".
                 </p>
                 <div class="tags_container">
@@ -106,7 +130,11 @@
                     <span class="date_tag">09/17</span> 
                 </div>
             </section>
+<<<<<<< HEAD
             <section class="o box" onclick="location.href='#';">
+=======
+            <section class="o box" onclick="location.href='database/index.php';">                
+>>>>>>> origin/master
                 <h2>
                     database
                 </h2>
@@ -119,12 +147,21 @@
                 </p>
                 <div class="tags_container">
                     <span class="tag">sql</span>
+<<<<<<< HEAD
                     <span class="misc_tag">python</span>
                     <span class="misc_tag">open cv</span>
                     <span class="date_tag">03/18</span>
                 </div>
             </section>
             <section class="b box" onclick="location.href='#';">
+=======
+                    <span class="g_tag">python</span>
+                    <span class="g_tag">open cv</span>
+                    <span class="date_tag">03/18</span>
+                </div>                  
+            </section>
+            <section class="b box" onclick="location.href='desktop_app/index.php';">
+>>>>>>> origin/master
                 <h2>
                     desktop app
                 </h2>
@@ -139,7 +176,11 @@
                     <span class="tag">c#</span>
                     <span class="date_tag">??/??</span>
                 </div>
+<<<<<<< HEAD
             </section>
+=======
+            </section>  
+>>>>>>> origin/master
         </div>
         <?php
             include "php/footer.php";
