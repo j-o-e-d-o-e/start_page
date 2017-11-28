@@ -1,5 +1,3 @@
 # README #
 
-### What is this repository for? ###
-
-For my website. To be published in 2018.
+Start page using flexible box layout & modals.
