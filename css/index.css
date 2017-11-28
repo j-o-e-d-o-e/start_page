@@ -42,11 +42,7 @@ section > p {
 .tags_container {
     margin-top: 8px;
 }
-<<<<<<< HEAD
 .tag, .misc_tag {
-=======
-.tag {
->>>>>>> origin/master
     font-size: small;
     color: dimgray;
     border-radius: 10px;
@@ -64,12 +60,9 @@ section > p {
 .o .tag {
     border: solid 1px var(--main-color-4);
 }
-<<<<<<< HEAD
 .misc_tag {
     border: solid 1px gray;
 }
-=======
->>>>>>> origin/master
 .r .fa {
     color: var(--main-color-1);
 }

@@ -27,11 +27,7 @@ header {
     margin: 0px 8px 5px 8px;
 }
 footer {
-<<<<<<< HEAD
     margin: 5px 8px 15px 8px;
-=======
-    margin:5px 8px 15px 8px;
->>>>>>> origin/master
 }
 header > h1 {
     display: inline;
@@ -63,11 +59,7 @@ header > h1 > span {
     color: white;
     font-size: 22px;
 }
-<<<<<<< HEAD
 #nav a, #nav_footer a {
-=======
-#nav a, #nav_footer a{
->>>>>>> origin/master
     cursor: pointer;
 }
 /*DROPDOWN-MENU*/
