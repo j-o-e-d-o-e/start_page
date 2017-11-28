@@ -1,3 +1,0 @@
-# OUTAGES
-
-[date]: [reason]
