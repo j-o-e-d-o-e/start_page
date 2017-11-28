@@ -46,6 +46,8 @@
                         <span class="misc_tag">pascal</span>
                         <span class="misc_tag">prolog</span>
                         <span class="misc_tag">scheme</span>
+                        <span class="misc_tag">jquery</span>
+                        <span class="misc_tag">ajax</span>
                     </td>
                     <td>
                         <span class="r_tag">java</span>
@@ -53,29 +55,6 @@
                         <span class="misc_tag">javascript</span>
                         <span class="misc_tag">css</span>
                         <span class="misc_tag">html</span>
-                    </td>
-                </tr>
-            </table>
-            <table class="modal_table">
-                <caption>
-                    <h3>frameworks</h3>
-                </caption>
-                <tr>
-                    <th>
-                        basics*
-                    </th>
-                    <th>
-                        intermediate**
-                    </th>
-                </tr>
-                <tr>
-                    <td>
-                        <span class="misc_tag">ajax</span>
-                        <span class="misc_tag">jquery</span>
-                        <span class="misc_tag">node.js</span>
-                    </td>
-                    <td>
-                        <span class="r_tag">libGDX</span>
                     </td>
                 </tr>
             </table>
