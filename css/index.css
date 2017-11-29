@@ -1,3 +1,102 @@
+:root {
+    --main-font: consolas, ubuntu mono, univers, monospace;
+    --main-border-radius: 10px;
+    --main-color-1: #FF6766;
+    --main-color-2: #97CE68;
+    --main-color-3: #4BA6E0;
+    --main-color-4: #ffb366;
+    --main-shadow: 4px 4px 2px 2px rgba(204,204,204,0.3);
+    --main-background: repeating-radial-gradient(#4d4d4d, #333333);
+}
+* {
+    font-family: var(--main-font);
+}
+body {
+    margin: 15px 10px 15px 5px;
+    background: var(--main-background);
+}
+header, footer {
+    padding: 20px;
+    color: white;
+    background: linear-gradient(to left, #8F8F8F, dimgray);
+    border-radius: var(--main-border-radius);
+    box-shadow: var(--main-shadow);
+    min-width: 400px;
+}
+header {
+    margin: 0px 8px 5px 8px;
+}
+footer {
+    margin: 5px 8px 15px 8px;
+}
+header > h1 {
+    display: inline;
+}
+
+/*NAVIGATION*/
+#nav {
+    float: right;
+    margin: 5px 0px 16px 0px;
+    padding: 0px;
+}
+#nav li {
+    display: inline-block;
+    margin-left:10px;
+}
+#nav li i {
+    color: white;
+    font-size: 24px;
+}
+#nav a {
+    cursor: pointer;
+}
+/*DROPDOWN-MENU*/
+#nav li i:hover ul {
+    display:inline-block;
+}
+#nav ul {
+    display: none;
+    position: absolute;
+    right:0;
+    width: 110px;
+    padding: 10px 5px;
+    z-index: 1;
+    margin-right: 30px;
+    background: white;
+    box-shadow: var(--main-shadow);
+    border-radius: var(--main-border-radius);
+}
+#nav ul li input:hover {
+    cursor: pointer;
+}
+
+/*ELEMENTS OF DROPDOWN-MENU*/
+#nav ul li {
+    display: block;
+    text-align: left;
+    padding: 5px;
+    font-size: small;
+}
+#nav span {
+    font-size: small;
+    color: dimgray;
+    padding: 0px 5px 0px 5px;
+    border-radius: 10px;
+    width: 55px;
+}
+#span_r {
+    border: solid 1px var(--main-color-1);
+}
+#span_g {
+    border: solid 1px var(--main-color-2);
+}
+#span_b {
+    border: solid 1px var(--main-color-3);
+}
+#span_o {
+    border: solid 1px var(--main-color-4);
+}
+
 /*CONTAINER*/
 #container {
     display: flex;
@@ -13,7 +112,8 @@
 .box {
     margin: 8px;
     padding: 20px;
-    min-width: 400px;
+    min-width: 250px;
+    min-height: 150px;
     background: white;
     border-radius: var(--main-border-radius);
     box-shadow: var(--main-shadow);
@@ -30,39 +130,6 @@ h2, .div_icon {
     padding-bottom: 10px;
     border-bottom: solid 1px #8F8F8F;
 }
-
-/*TAGS*/
-section {
-    display: flex;
-    flex-direction: column;
-}
-section > p {
-    margin-bottom: auto;
-}
-.tags_container {
-    margin-top: 8px;
-}
-.tag, .misc_tag {
-    font-size: small;
-    color: dimgray;
-    border-radius: 10px;
-    padding: 0px 5px 0px 5px;
-}
-.r .tag {
-    border: solid 1px var(--main-color-1);
-}
-.g .tag {
-    border: solid 1px var(--main-color-2);
-}
-.b .tag {
-    border: solid 1px var(--main-color-3);
-}
-.o .tag {
-    border: solid 1px var(--main-color-4);
-}
-.misc_tag {
-    border: solid 1px gray;
-}
 .r .fa {
     color: var(--main-color-1);
 }
@@ -76,10 +143,13 @@ section > p {
     color: var(--main-color-4);
 }
 
-/*DATE TAG*/
-.date_tag {
-    font-size: small;
-    color: dimgray;
-    margin-top: 5px;
-    float: right;
+/*WINDOW RESIZE
+/*if viewport 1200px or wider*/
+@media screen and (min-width: 1200px) {
+    body {
+        margin: 15px 240px 15px 240px;
+    }
+    #nav ul {
+        margin-right: 250px;
+    }
 }
