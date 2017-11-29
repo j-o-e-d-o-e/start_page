@@ -78,15 +78,6 @@
                 <div class="div_icon">
                     <i class="fa fa-search" aria-hidden="true"></i>
                 </div>
-                <div class="border"></div>
-                <p>
-                    Scraper for the social media aggregator "reddit".
-                </p>
-                <div class="tags_container">
-                    <span class="tag">python</span>
-                    <span class="tag">praw</span>
-                    <span class="date_tag">08/17</span>
-                </div>
             </section>
             <section class="r box" onclick="location.href='#';">
                 <h2>
@@ -94,15 +85,6 @@
                 </h2>
                 <div class="div_icon">
                     <i class="fa fa-gamepad" aria-hidden="true"></i>
-                </div>
-                <div class="border"></div>
-                <p>
-                    Inspired by the commodore 64-classics "mafia".
-                </p>
-                <div class="tags_container">
-                    <span class="tag">java</span>
-                    <span class="tag">libGDX</span>
-                    <span class="date_tag">09/17</span> 
                 </div>
             </section>
             <section class="o box" onclick="location.href='#';">
@@ -112,16 +94,6 @@
                 <div class="div_icon">
                     <i class="fa fa-database" aria-hidden="true"></i>
                 </div>
-                <div class="border"></div>
-                <p>
-                    Stores data on aircraft using computer vision.
-                </p>
-                <div class="tags_container">
-                    <span class="tag">sql</span>
-                    <span class="misc_tag">python</span>
-                    <span class="misc_tag">open cv</span>
-                    <span class="date_tag">03/18</span>
-                </div>
             </section>
             <section class="b box" onclick="location.href='#';">
                 <h2>
@@ -130,18 +102,10 @@
                 <div class="div_icon">
                     <i class="fa fa-desktop" aria-hidden="true"></i>
                 </div>
-                <div class="border"></div>
-                <p>
-                    Editing &amp archiving application.
-                </p>
-                <div class="tags_container">
-                    <span class="tag">c#</span>
-                    <span class="date_tag">??/??</span>
-                </div>
             </section>
         </div>
-        <?php
-            include "php/footer.php";
-        ?>
+        <footer>
+            lorem ipsum
+        </footer>
     </body>
 </html>
